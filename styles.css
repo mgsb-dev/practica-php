@@ -1,0 +1,44 @@
+/* Mi código */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+}
+
+.row > * {
+  padding: 0;
+}
+
+.festival-image {
+  background: rgb(249, 0, 191);
+  background: radial-gradient(
+    circle,
+    rgba(249, 0, 191, 1) 0%,
+    rgba(249, 0, 191, 1) 30%,
+    rgba(153, 0, 240, 1) 60%,
+    rgba(71, 0, 216, 1) 100%
+  );
+}
+
+.background-square {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.control-label {
+  text-align: left !important;
+}
+
+.title-font {
+  font-family: "Abel", sans-serif;
+  font-weight: 600;
+}
+
+.title-font--outline {
+  font-family: "Bungee Outline", cursive;
+}
+
+.text-small {
+  font-size: 0.75rem;
+}
